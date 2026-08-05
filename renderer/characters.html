@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>キャラクター設定</title>
+  <link rel="stylesheet" href="characters.css">
+</head>
+<body>
+  <!-- 一覧ビュー -->
+  <div id="view-list">
+    <h1>🐾 キャラクター</h1>
+    <p class="hint">クリックすると切り替わります</p>
+    <div id="grid"></div>
+    <button id="btn-new" class="primary big">＋ キャラクターを新しく作る</button>
+    <button id="btn-dex" class="big">📖 図鑑（151の保存枠）</button>
+  </div>
+
+  <!-- 図鑑ビュー -->
+  <div id="view-dex" class="hidden">
+    <h1>📖 図鑑</h1>
+    <p id="dex-progress" class="dex-progress"></p>
+    <p class="hint">クリックでペットに反映されます。「登録」で手持ちの画像に差し替え（保存先はこのPCの中だけ）。作業の成果ポイントが貯まると選択中のモンスターが進化します。</p>
+    <div id="dex-grid"></div>
+    <button id="btn-dex-back" class="big">← 戻る</button>
+  </div>
+
+  <!-- 作成ウィザードビュー -->
+  <div id="view-create" class="hidden">
+    <h1>🎨 キャラクターを新しく作る</h1>
+    <p id="create-target" class="hint hidden"></p>
+
+    <section>
+      <h2>1. AIにスプライト画像を作ってもらう</h2>
+      <p class="hint">下のプロンプトをコピーして、キャラクターにしたい画像（スクリーンショット・写真・イラスト等）と一緒に ChatGPT や Gemini などの画像生成AIに送ってください。</p>
+      <textarea id="prompt-text" readonly rows="9"></textarea>
+      <button id="btn-copy" class="primary">📋 プロンプトをコピー</button>
+    </section>
+
+    <section>
+      <h2>2. できたPNG画像を読み込む</h2>
+      <button id="btn-pick">🖼 画像を選ぶ…</button>
+      <span id="picked-name" class="hint"></span>
+      <div class="options">
+        <label>コマ数:
+          <select id="frame-count">
+            <option value="6" selected>6コマ（待機・作業・睡眠）</option>
+            <option value="4">4コマ（待機・作業）</option>
+            <option value="1">1コマ（静止画）</option>
+          </select>
+        </label>
+        <label><input type="checkbox" id="chroma" checked> 背景を自動で透過する</label>
+        <label>透過の強さ:
+          <input type="range" id="tolerance" min="5" max="60" value="30">
+          <span id="tolerance-val">30</span>
+        </label>
+      </div>
+      <div id="trim-wrap" class="hidden">
+        <p class="hint">キャラがはみ出す・切れる場合は<b>線をドラッグ</b>して調整してください（<span class="line-v">縦線</span>=コマの区切り、<span class="line-h">横線</span>=上下の範囲）</p>
+        <canvas id="trim-editor"></canvas>
+        <button id="btn-reset-trim">区切りをリセット</button>
+      </div>
+      <div id="preview-wrap" class="hidden">
+        <p class="hint">分割プレビュー（この形でアニメします）:</p>
+        <div id="preview"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>3. 仕上げ</h2>
+      <div class="options">
+        <label>名前: <input type="text" id="char-name" maxlength="20" placeholder="例: うちの猫"></label>
+        <label>大きさ:
+          <select id="target-size">
+            <option value="32">小（コーギーと同じ）</option>
+            <option value="64" selected>中</option>
+            <option value="96">大</option>
+          </select>
+        </label>
+        <label>テーマ色: <input type="color" id="accent" value="#e8974e"></label>
+      </div>
+      <div class="actions">
+        <button id="btn-back">← 戻る</button>
+        <button id="btn-create" class="primary" disabled>✨ 作成してペットに反映</button>
+      </div>
+      <p id="create-msg"></p>
+    </section>
+  </div>
+
+  <script src="characters.js"></script>
+</body>
+</html>

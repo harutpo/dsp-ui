@@ -1,0 +1,34 @@
+{
+  "name": "男の子",
+  "frameWidth": 32,
+  "frameHeight": 26,
+  "scale": 1,
+  "facing": "front",
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle_0.png",
+        "idle_0.png",
+        "idle_0.png",
+        "idle_0.png",
+        "idle_0.png",
+        "idle_1.png"
+      ],
+      "fps": 2
+    },
+    "work": {
+      "frames": [
+        "work_0.png",
+        "work_1.png"
+      ],
+      "fps": 4
+    },
+    "sleep": {
+      "frames": [
+        "sleep_0.png",
+        "sleep_1.png"
+      ],
+      "fps": 1
+    }
+  }
+}

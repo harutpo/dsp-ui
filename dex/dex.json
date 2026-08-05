@@ -1,0 +1,1361 @@
+[
+  {
+    "no": 1,
+    "name": "メラッコ",
+    "stage": 1,
+    "family": 1,
+    "element": "fire",
+    "evolvesTo": 2,
+    "evolveAt": 60
+  },
+  {
+    "no": 2,
+    "name": "メラルガ",
+    "stage": 2,
+    "family": 1,
+    "element": "fire",
+    "evolvesTo": 3,
+    "evolveAt": 240
+  },
+  {
+    "no": 3,
+    "name": "メラドラス",
+    "stage": 3,
+    "family": 1,
+    "element": "fire",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 4,
+    "name": "シズポン",
+    "stage": 1,
+    "family": 2,
+    "element": "water",
+    "evolvesTo": 5,
+    "evolveAt": 60
+  },
+  {
+    "no": 5,
+    "name": "シズドン",
+    "stage": 2,
+    "family": 2,
+    "element": "water",
+    "evolvesTo": 6,
+    "evolveAt": 240
+  },
+  {
+    "no": 6,
+    "name": "シズガイザー",
+    "stage": 3,
+    "family": 2,
+    "element": "water",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 7,
+    "name": "ハパミュ",
+    "stage": 1,
+    "family": 3,
+    "element": "grass",
+    "evolvesTo": 8,
+    "evolveAt": 60
+  },
+  {
+    "no": 8,
+    "name": "ハパバーン",
+    "stage": 2,
+    "family": 3,
+    "element": "grass",
+    "evolvesTo": 9,
+    "evolveAt": 240
+  },
+  {
+    "no": 9,
+    "name": "ハパグランデ",
+    "stage": 3,
+    "family": 3,
+    "element": "grass",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 10,
+    "name": "ビリチチ",
+    "stage": 1,
+    "family": 4,
+    "element": "electric",
+    "evolvesTo": 11,
+    "evolveAt": 60
+  },
+  {
+    "no": 11,
+    "name": "ビリロス",
+    "stage": 2,
+    "family": 4,
+    "element": "electric",
+    "evolvesTo": 12,
+    "evolveAt": 240
+  },
+  {
+    "no": 12,
+    "name": "ビリザウルス",
+    "stage": 3,
+    "family": 4,
+    "element": "electric",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 13,
+    "name": "ユキプチ",
+    "stage": 1,
+    "family": 5,
+    "element": "ice",
+    "evolvesTo": 14,
+    "evolveAt": 60
+  },
+  {
+    "no": 14,
+    "name": "ユキガル",
+    "stage": 2,
+    "family": 5,
+    "element": "ice",
+    "evolvesTo": 15,
+    "evolveAt": 240
+  },
+  {
+    "no": 15,
+    "name": "ユキティラン",
+    "stage": 3,
+    "family": 5,
+    "element": "ice",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 16,
+    "name": "イワペコ",
+    "stage": 1,
+    "family": 6,
+    "element": "rock",
+    "evolvesTo": 17,
+    "evolveAt": 60
+  },
+  {
+    "no": 17,
+    "name": "イワモス",
+    "stage": 2,
+    "family": 6,
+    "element": "rock",
+    "evolvesTo": 18,
+    "evolveAt": 240
+  },
+  {
+    "no": 18,
+    "name": "イワカイザー",
+    "stage": 3,
+    "family": 6,
+    "element": "rock",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 19,
+    "name": "カゼッコ",
+    "stage": 1,
+    "family": 7,
+    "element": "wind",
+    "evolvesTo": 20,
+    "evolveAt": 60
+  },
+  {
+    "no": 20,
+    "name": "カゼルガ",
+    "stage": 2,
+    "family": 7,
+    "element": "wind",
+    "evolvesTo": 21,
+    "evolveAt": 240
+  },
+  {
+    "no": 21,
+    "name": "カゼドラス",
+    "stage": 3,
+    "family": 7,
+    "element": "wind",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 22,
+    "name": "ヤミポン",
+    "stage": 1,
+    "family": 8,
+    "element": "dark",
+    "evolvesTo": 23,
+    "evolveAt": 60
+  },
+  {
+    "no": 23,
+    "name": "ヤミドン",
+    "stage": 2,
+    "family": 8,
+    "element": "dark",
+    "evolvesTo": 24,
+    "evolveAt": 240
+  },
+  {
+    "no": 24,
+    "name": "ヤミガイザー",
+    "stage": 3,
+    "family": 8,
+    "element": "dark",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 25,
+    "name": "ヒカミュ",
+    "stage": 1,
+    "family": 9,
+    "element": "light",
+    "evolvesTo": 26,
+    "evolveAt": 60
+  },
+  {
+    "no": 26,
+    "name": "ヒカバーン",
+    "stage": 2,
+    "family": 9,
+    "element": "light",
+    "evolvesTo": 27,
+    "evolveAt": 240
+  },
+  {
+    "no": 27,
+    "name": "ヒカグランデ",
+    "stage": 3,
+    "family": 9,
+    "element": "light",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 28,
+    "name": "カブチチ",
+    "stage": 1,
+    "family": 10,
+    "element": "bug",
+    "evolvesTo": 29,
+    "evolveAt": 60
+  },
+  {
+    "no": 29,
+    "name": "カブロス",
+    "stage": 2,
+    "family": 10,
+    "element": "bug",
+    "evolvesTo": 30,
+    "evolveAt": 240
+  },
+  {
+    "no": 30,
+    "name": "カブザウルス",
+    "stage": 3,
+    "family": 10,
+    "element": "bug",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 31,
+    "name": "ヒバプチ",
+    "stage": 1,
+    "family": 11,
+    "element": "fire",
+    "evolvesTo": 32,
+    "evolveAt": 60
+  },
+  {
+    "no": 32,
+    "name": "ヒバガル",
+    "stage": 2,
+    "family": 11,
+    "element": "fire",
+    "evolvesTo": 33,
+    "evolveAt": 240
+  },
+  {
+    "no": 33,
+    "name": "ヒバティラン",
+    "stage": 3,
+    "family": 11,
+    "element": "fire",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 34,
+    "name": "ナミペコ",
+    "stage": 1,
+    "family": 12,
+    "element": "water",
+    "evolvesTo": 35,
+    "evolveAt": 60
+  },
+  {
+    "no": 35,
+    "name": "ナミモス",
+    "stage": 2,
+    "family": 12,
+    "element": "water",
+    "evolvesTo": 36,
+    "evolveAt": 240
+  },
+  {
+    "no": 36,
+    "name": "ナミカイザー",
+    "stage": 3,
+    "family": 12,
+    "element": "water",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 37,
+    "name": "モリッコ",
+    "stage": 1,
+    "family": 13,
+    "element": "grass",
+    "evolvesTo": 38,
+    "evolveAt": 60
+  },
+  {
+    "no": 38,
+    "name": "モリルガ",
+    "stage": 2,
+    "family": 13,
+    "element": "grass",
+    "evolvesTo": 39,
+    "evolveAt": 240
+  },
+  {
+    "no": 39,
+    "name": "モリドラス",
+    "stage": 3,
+    "family": 13,
+    "element": "grass",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 40,
+    "name": "デンポン",
+    "stage": 1,
+    "family": 14,
+    "element": "electric",
+    "evolvesTo": 41,
+    "evolveAt": 60
+  },
+  {
+    "no": 41,
+    "name": "デンドン",
+    "stage": 2,
+    "family": 14,
+    "element": "electric",
+    "evolvesTo": 42,
+    "evolveAt": 240
+  },
+  {
+    "no": 42,
+    "name": "デンガイザー",
+    "stage": 3,
+    "family": 14,
+    "element": "electric",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 43,
+    "name": "コオミュ",
+    "stage": 1,
+    "family": 15,
+    "element": "ice",
+    "evolvesTo": 44,
+    "evolveAt": 60
+  },
+  {
+    "no": 44,
+    "name": "コオバーン",
+    "stage": 2,
+    "family": 15,
+    "element": "ice",
+    "evolvesTo": 45,
+    "evolveAt": 240
+  },
+  {
+    "no": 45,
+    "name": "コオグランデ",
+    "stage": 3,
+    "family": 15,
+    "element": "ice",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 46,
+    "name": "ガンチチ",
+    "stage": 1,
+    "family": 16,
+    "element": "rock",
+    "evolvesTo": 47,
+    "evolveAt": 60
+  },
+  {
+    "no": 47,
+    "name": "ガンロス",
+    "stage": 2,
+    "family": 16,
+    "element": "rock",
+    "evolvesTo": 48,
+    "evolveAt": 240
+  },
+  {
+    "no": 48,
+    "name": "ガンザウルス",
+    "stage": 3,
+    "family": 16,
+    "element": "rock",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 49,
+    "name": "ソヨプチ",
+    "stage": 1,
+    "family": 17,
+    "element": "wind",
+    "evolvesTo": 50,
+    "evolveAt": 60
+  },
+  {
+    "no": 50,
+    "name": "ソヨガル",
+    "stage": 2,
+    "family": 17,
+    "element": "wind",
+    "evolvesTo": 51,
+    "evolveAt": 240
+  },
+  {
+    "no": 51,
+    "name": "ソヨティラン",
+    "stage": 3,
+    "family": 17,
+    "element": "wind",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 52,
+    "name": "カゲペコ",
+    "stage": 1,
+    "family": 18,
+    "element": "dark",
+    "evolvesTo": 53,
+    "evolveAt": 60
+  },
+  {
+    "no": 53,
+    "name": "カゲモス",
+    "stage": 2,
+    "family": 18,
+    "element": "dark",
+    "evolvesTo": 54,
+    "evolveAt": 240
+  },
+  {
+    "no": 54,
+    "name": "カゲカイザー",
+    "stage": 3,
+    "family": 18,
+    "element": "dark",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 55,
+    "name": "キラッコ",
+    "stage": 1,
+    "family": 19,
+    "element": "light",
+    "evolvesTo": 56,
+    "evolveAt": 60
+  },
+  {
+    "no": 56,
+    "name": "キラルガ",
+    "stage": 2,
+    "family": 19,
+    "element": "light",
+    "evolvesTo": 57,
+    "evolveAt": 240
+  },
+  {
+    "no": 57,
+    "name": "キラドラス",
+    "stage": 3,
+    "family": 19,
+    "element": "light",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 58,
+    "name": "テンポン",
+    "stage": 1,
+    "family": 20,
+    "element": "bug",
+    "evolvesTo": 59,
+    "evolveAt": 60
+  },
+  {
+    "no": 59,
+    "name": "テンドン",
+    "stage": 2,
+    "family": 20,
+    "element": "bug",
+    "evolvesTo": 60,
+    "evolveAt": 240
+  },
+  {
+    "no": 60,
+    "name": "テンガイザー",
+    "stage": 3,
+    "family": 20,
+    "element": "bug",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 61,
+    "name": "ゴウミュ",
+    "stage": 1,
+    "family": 21,
+    "element": "fire",
+    "evolvesTo": 62,
+    "evolveAt": 60
+  },
+  {
+    "no": 62,
+    "name": "ゴウバーン",
+    "stage": 2,
+    "family": 21,
+    "element": "fire",
+    "evolvesTo": 63,
+    "evolveAt": 240
+  },
+  {
+    "no": 63,
+    "name": "ゴウグランデ",
+    "stage": 3,
+    "family": 21,
+    "element": "fire",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 64,
+    "name": "プクチチ",
+    "stage": 1,
+    "family": 22,
+    "element": "water",
+    "evolvesTo": 65,
+    "evolveAt": 60
+  },
+  {
+    "no": 65,
+    "name": "プクロス",
+    "stage": 2,
+    "family": 22,
+    "element": "water",
+    "evolvesTo": 66,
+    "evolveAt": 240
+  },
+  {
+    "no": 66,
+    "name": "プクザウルス",
+    "stage": 3,
+    "family": 22,
+    "element": "water",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 67,
+    "name": "ツタプチ",
+    "stage": 1,
+    "family": 23,
+    "element": "grass",
+    "evolvesTo": 68,
+    "evolveAt": 60
+  },
+  {
+    "no": 68,
+    "name": "ツタガル",
+    "stage": 2,
+    "family": 23,
+    "element": "grass",
+    "evolvesTo": 69,
+    "evolveAt": 240
+  },
+  {
+    "no": 69,
+    "name": "ツタティラン",
+    "stage": 3,
+    "family": 23,
+    "element": "grass",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 70,
+    "name": "ゴロペコ",
+    "stage": 1,
+    "family": 24,
+    "element": "electric",
+    "evolvesTo": 71,
+    "evolveAt": 60
+  },
+  {
+    "no": 71,
+    "name": "ゴロモス",
+    "stage": 2,
+    "family": 24,
+    "element": "electric",
+    "evolvesTo": 72,
+    "evolveAt": 240
+  },
+  {
+    "no": 72,
+    "name": "ゴロカイザー",
+    "stage": 3,
+    "family": 24,
+    "element": "electric",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 73,
+    "name": "フブッコ",
+    "stage": 1,
+    "family": 25,
+    "element": "ice",
+    "evolvesTo": 74,
+    "evolveAt": 60
+  },
+  {
+    "no": 74,
+    "name": "フブルガ",
+    "stage": 2,
+    "family": 25,
+    "element": "ice",
+    "evolvesTo": 75,
+    "evolveAt": 240
+  },
+  {
+    "no": 75,
+    "name": "フブドラス",
+    "stage": 3,
+    "family": 25,
+    "element": "ice",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 76,
+    "name": "ゴツポン",
+    "stage": 1,
+    "family": 26,
+    "element": "rock",
+    "evolvesTo": 77,
+    "evolveAt": 60
+  },
+  {
+    "no": 77,
+    "name": "ゴツドン",
+    "stage": 2,
+    "family": 26,
+    "element": "rock",
+    "evolvesTo": 78,
+    "evolveAt": 240
+  },
+  {
+    "no": 78,
+    "name": "ゴツガイザー",
+    "stage": 3,
+    "family": 26,
+    "element": "rock",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 79,
+    "name": "ハヤミュ",
+    "stage": 1,
+    "family": 27,
+    "element": "wind",
+    "evolvesTo": 80,
+    "evolveAt": 60
+  },
+  {
+    "no": 80,
+    "name": "ハヤバーン",
+    "stage": 2,
+    "family": 27,
+    "element": "wind",
+    "evolvesTo": 81,
+    "evolveAt": 240
+  },
+  {
+    "no": 81,
+    "name": "ハヤグランデ",
+    "stage": 3,
+    "family": 27,
+    "element": "wind",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 82,
+    "name": "クロチチ",
+    "stage": 1,
+    "family": 28,
+    "element": "dark",
+    "evolvesTo": 83,
+    "evolveAt": 60
+  },
+  {
+    "no": 83,
+    "name": "クロロス",
+    "stage": 2,
+    "family": 28,
+    "element": "dark",
+    "evolvesTo": 84,
+    "evolveAt": 240
+  },
+  {
+    "no": 84,
+    "name": "クロザウルス",
+    "stage": 3,
+    "family": 28,
+    "element": "dark",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 85,
+    "name": "テラプチ",
+    "stage": 1,
+    "family": 29,
+    "element": "light",
+    "evolvesTo": 86,
+    "evolveAt": 60
+  },
+  {
+    "no": 86,
+    "name": "テラガル",
+    "stage": 2,
+    "family": 29,
+    "element": "light",
+    "evolvesTo": 87,
+    "evolveAt": 240
+  },
+  {
+    "no": 87,
+    "name": "テラティラン",
+    "stage": 3,
+    "family": 29,
+    "element": "light",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 88,
+    "name": "ハチペコ",
+    "stage": 1,
+    "family": 30,
+    "element": "bug",
+    "evolvesTo": 89,
+    "evolveAt": 60
+  },
+  {
+    "no": 89,
+    "name": "ハチモス",
+    "stage": 2,
+    "family": 30,
+    "element": "bug",
+    "evolvesTo": 90,
+    "evolveAt": 240
+  },
+  {
+    "no": 90,
+    "name": "ハチカイザー",
+    "stage": 3,
+    "family": 30,
+    "element": "bug",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 91,
+    "name": "カエッコ",
+    "stage": 1,
+    "family": 31,
+    "element": "fire",
+    "evolvesTo": 92,
+    "evolveAt": 60
+  },
+  {
+    "no": 92,
+    "name": "カエルガ",
+    "stage": 2,
+    "family": 31,
+    "element": "fire",
+    "evolvesTo": 93,
+    "evolveAt": 240
+  },
+  {
+    "no": 93,
+    "name": "カエドラス",
+    "stage": 3,
+    "family": 31,
+    "element": "fire",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 94,
+    "name": "ウズポン",
+    "stage": 1,
+    "family": 32,
+    "element": "water",
+    "evolvesTo": 95,
+    "evolveAt": 60
+  },
+  {
+    "no": 95,
+    "name": "ウズドン",
+    "stage": 2,
+    "family": 32,
+    "element": "water",
+    "evolvesTo": 96,
+    "evolveAt": 240
+  },
+  {
+    "no": 96,
+    "name": "ウズガイザー",
+    "stage": 3,
+    "family": 32,
+    "element": "water",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 97,
+    "name": "コケミュ",
+    "stage": 1,
+    "family": 33,
+    "element": "grass",
+    "evolvesTo": 98,
+    "evolveAt": 60
+  },
+  {
+    "no": 98,
+    "name": "コケバーン",
+    "stage": 2,
+    "family": 33,
+    "element": "grass",
+    "evolvesTo": 99,
+    "evolveAt": 240
+  },
+  {
+    "no": 99,
+    "name": "コケグランデ",
+    "stage": 3,
+    "family": 33,
+    "element": "grass",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 100,
+    "name": "イナチチ",
+    "stage": 1,
+    "family": 34,
+    "element": "electric",
+    "evolvesTo": 101,
+    "evolveAt": 60
+  },
+  {
+    "no": 101,
+    "name": "イナロス",
+    "stage": 2,
+    "family": 34,
+    "element": "electric",
+    "evolvesTo": 102,
+    "evolveAt": 240
+  },
+  {
+    "no": 102,
+    "name": "イナザウルス",
+    "stage": 3,
+    "family": 34,
+    "element": "electric",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 103,
+    "name": "ヒョプチ",
+    "stage": 1,
+    "family": 35,
+    "element": "ice",
+    "evolvesTo": 104,
+    "evolveAt": 60
+  },
+  {
+    "no": 104,
+    "name": "ヒョガル",
+    "stage": 2,
+    "family": 35,
+    "element": "ice",
+    "evolvesTo": 105,
+    "evolveAt": 240
+  },
+  {
+    "no": 105,
+    "name": "ヒョティラン",
+    "stage": 3,
+    "family": 35,
+    "element": "ice",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 106,
+    "name": "ジャペコ",
+    "stage": 1,
+    "family": 36,
+    "element": "rock",
+    "evolvesTo": 107,
+    "evolveAt": 60
+  },
+  {
+    "no": 107,
+    "name": "ジャモス",
+    "stage": 2,
+    "family": 36,
+    "element": "rock",
+    "evolvesTo": 108,
+    "evolveAt": 240
+  },
+  {
+    "no": 108,
+    "name": "ジャカイザー",
+    "stage": 3,
+    "family": 36,
+    "element": "rock",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 109,
+    "name": "アラッコ",
+    "stage": 1,
+    "family": 37,
+    "element": "wind",
+    "evolvesTo": 110,
+    "evolveAt": 60
+  },
+  {
+    "no": 110,
+    "name": "アラルガ",
+    "stage": 2,
+    "family": 37,
+    "element": "wind",
+    "evolvesTo": 111,
+    "evolveAt": 240
+  },
+  {
+    "no": 111,
+    "name": "アラドラス",
+    "stage": 3,
+    "family": 37,
+    "element": "wind",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 112,
+    "name": "ヨルポン",
+    "stage": 1,
+    "family": 38,
+    "element": "dark",
+    "evolvesTo": 113,
+    "evolveAt": 60
+  },
+  {
+    "no": 113,
+    "name": "ヨルドン",
+    "stage": 2,
+    "family": 38,
+    "element": "dark",
+    "evolvesTo": 114,
+    "evolveAt": 240
+  },
+  {
+    "no": 114,
+    "name": "ヨルガイザー",
+    "stage": 3,
+    "family": 38,
+    "element": "dark",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 115,
+    "name": "アサミュ",
+    "stage": 1,
+    "family": 39,
+    "element": "light",
+    "evolvesTo": 116,
+    "evolveAt": 60
+  },
+  {
+    "no": 116,
+    "name": "アサバーン",
+    "stage": 2,
+    "family": 39,
+    "element": "light",
+    "evolvesTo": 117,
+    "evolveAt": 240
+  },
+  {
+    "no": 117,
+    "name": "アサグランデ",
+    "stage": 3,
+    "family": 39,
+    "element": "light",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 118,
+    "name": "クモチチ",
+    "stage": 1,
+    "family": 40,
+    "element": "bug",
+    "evolvesTo": 119,
+    "evolveAt": 60
+  },
+  {
+    "no": 119,
+    "name": "クモロス",
+    "stage": 2,
+    "family": 40,
+    "element": "bug",
+    "evolvesTo": 120,
+    "evolveAt": 240
+  },
+  {
+    "no": 120,
+    "name": "クモザウルス",
+    "stage": 3,
+    "family": 40,
+    "element": "bug",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 121,
+    "name": "ヨウプチ",
+    "stage": 1,
+    "family": 41,
+    "element": "fire",
+    "evolvesTo": 122,
+    "evolveAt": 60
+  },
+  {
+    "no": 122,
+    "name": "ヨウガル",
+    "stage": 2,
+    "family": 41,
+    "element": "fire",
+    "evolvesTo": 123,
+    "evolveAt": 240
+  },
+  {
+    "no": 123,
+    "name": "ヨウティラン",
+    "stage": 3,
+    "family": 41,
+    "element": "fire",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 124,
+    "name": "シオペコ",
+    "stage": 1,
+    "family": 42,
+    "element": "water",
+    "evolvesTo": 125,
+    "evolveAt": 60
+  },
+  {
+    "no": 125,
+    "name": "シオモス",
+    "stage": 2,
+    "family": 42,
+    "element": "water",
+    "evolvesTo": 126,
+    "evolveAt": 240
+  },
+  {
+    "no": 126,
+    "name": "シオカイザー",
+    "stage": 3,
+    "family": 42,
+    "element": "water",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 127,
+    "name": "サボッコ",
+    "stage": 1,
+    "family": 43,
+    "element": "grass",
+    "evolvesTo": 128,
+    "evolveAt": 60
+  },
+  {
+    "no": 128,
+    "name": "サボルガ",
+    "stage": 2,
+    "family": 43,
+    "element": "grass",
+    "evolvesTo": 129,
+    "evolveAt": 240
+  },
+  {
+    "no": 129,
+    "name": "サボドラス",
+    "stage": 3,
+    "family": 43,
+    "element": "grass",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 130,
+    "name": "スパポン",
+    "stage": 1,
+    "family": 44,
+    "element": "electric",
+    "evolvesTo": 131,
+    "evolveAt": 60
+  },
+  {
+    "no": 131,
+    "name": "スパドン",
+    "stage": 2,
+    "family": 44,
+    "element": "electric",
+    "evolvesTo": 132,
+    "evolveAt": 240
+  },
+  {
+    "no": 132,
+    "name": "スパガイザー",
+    "stage": 3,
+    "family": 44,
+    "element": "electric",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 133,
+    "name": "ツラミュ",
+    "stage": 1,
+    "family": 45,
+    "element": "ice",
+    "evolvesTo": 134,
+    "evolveAt": 60
+  },
+  {
+    "no": 134,
+    "name": "ツラバーン",
+    "stage": 2,
+    "family": 45,
+    "element": "ice",
+    "evolvesTo": 135,
+    "evolveAt": 240
+  },
+  {
+    "no": 135,
+    "name": "ツラグランデ",
+    "stage": 3,
+    "family": 45,
+    "element": "ice",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 136,
+    "name": "ドロチチ",
+    "stage": 1,
+    "family": 46,
+    "element": "rock",
+    "evolvesTo": 137,
+    "evolveAt": 60
+  },
+  {
+    "no": 137,
+    "name": "ドロザウルス",
+    "stage": 2,
+    "family": 46,
+    "element": "rock",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 138,
+    "name": "フウプチ",
+    "stage": 1,
+    "family": 47,
+    "element": "wind",
+    "evolvesTo": 139,
+    "evolveAt": 60
+  },
+  {
+    "no": 139,
+    "name": "フウティラン",
+    "stage": 2,
+    "family": 47,
+    "element": "wind",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 140,
+    "name": "マヨペコ",
+    "stage": 1,
+    "family": 48,
+    "element": "dark",
+    "evolvesTo": 141,
+    "evolveAt": 60
+  },
+  {
+    "no": 141,
+    "name": "マヨカイザー",
+    "stage": 2,
+    "family": 48,
+    "element": "dark",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 142,
+    "name": "シラッコ",
+    "stage": 1,
+    "family": 49,
+    "element": "light",
+    "evolvesTo": 143,
+    "evolveAt": 60
+  },
+  {
+    "no": 143,
+    "name": "シラドラス",
+    "stage": 2,
+    "family": 49,
+    "element": "light",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 144,
+    "name": "セミポン",
+    "stage": 1,
+    "family": 50,
+    "element": "bug",
+    "evolvesTo": 145,
+    "evolveAt": 60
+  },
+  {
+    "no": 145,
+    "name": "セミガイザー",
+    "stage": 2,
+    "family": 50,
+    "element": "bug",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 146,
+    "name": "ボカミュ",
+    "stage": 1,
+    "family": 51,
+    "element": "fire",
+    "evolvesTo": 147,
+    "evolveAt": 60
+  },
+  {
+    "no": 147,
+    "name": "ボカグランデ",
+    "stage": 2,
+    "family": 51,
+    "element": "fire",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 148,
+    "name": "アワチチ",
+    "stage": 1,
+    "family": 52,
+    "element": "water",
+    "evolvesTo": 149,
+    "evolveAt": 60
+  },
+  {
+    "no": 149,
+    "name": "アワザウルス",
+    "stage": 2,
+    "family": 52,
+    "element": "water",
+    "evolvesTo": null,
+    "evolveAt": null
+  },
+  {
+    "no": 150,
+    "name": "キノプチ",
+    "stage": 1,
+    "family": 53,
+    "element": "grass",
+    "evolvesTo": 151,
+    "evolveAt": 60
+  },
+  {
+    "no": 151,
+    "name": "キノティラン",
+    "stage": 2,
+    "family": 53,
+    "element": "grass",
+    "evolvesTo": null,
+    "evolveAt": null
+  }
+]

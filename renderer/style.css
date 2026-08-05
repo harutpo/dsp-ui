@@ -1,0 +1,138 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: transparent;
+  font-family: "Segoe UI", "Yu Gothic UI", sans-serif;
+  user-select: none;
+}
+
+/* ペットのサイズに応じて pet.js が更新する */
+:root {
+  --popup-bottom: 102px;
+  --zzz-left: calc(50% + 40px);
+  --accent: #e8974e; /* スキンの theme.accent で上書きされる */
+}
+
+.hidden { display: none !important; }
+
+/* ---- ペット ---- */
+#pet {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 128px;
+  image-rendering: pixelated;
+  cursor: pointer;
+  -webkit-user-drag: none;
+}
+#pet.flip {
+  transform: translateX(-50%) scaleX(-1);
+}
+
+/* ---- ツールチップ ---- */
+#tooltip {
+  position: absolute;
+  bottom: var(--popup-bottom);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(42, 38, 35, 0.92);
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* ---- 進捗パネル ---- */
+#panel {
+  position: absolute;
+  bottom: var(--popup-bottom);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 230px;
+  background: rgba(42, 38, 35, 0.95);
+  border-radius: 14px;
+  padding: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-align: center;
+}
+#panel-char {
+  font-size: 13px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#panel-points {
+  font-size: 24px;
+  font-variant-numeric: tabular-nums;
+  margin: 4px 0 8px;
+}
+#panel-bar-wrap {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  overflow: hidden;
+}
+#panel-bar {
+  height: 100%;
+  width: 0%;
+  background: var(--accent);
+  border-radius: 999px;
+  transition: width 0.3s;
+}
+#panel-next {
+  margin-top: 6px;
+  font-size: 11px;
+  color: #cfc8c0;
+}
+#char-line {
+  margin-top: 8px;
+  font-size: 11px;
+  color: #cfc8c0;
+  cursor: pointer;
+}
+#char-line:hover { color: #fff; }
+
+/* ---- トースト ---- */
+#toast {
+  position: absolute;
+  bottom: var(--popup-bottom);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(60, 50, 40, 0.95);
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  white-space: nowrap;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  animation: pop 0.25s ease-out;
+}
+@keyframes pop {
+  from { opacity: 0; transform: translateX(-50%) translateY(6px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* ---- 💤 ---- */
+#zzz {
+  position: absolute;
+  bottom: calc(var(--popup-bottom) - 7px);
+  left: var(--zzz-left);
+  font-size: 18px;
+  pointer-events: none;
+  animation: floatz 2.4s ease-in-out infinite;
+}
+@keyframes floatz {
+  0% { opacity: 0; transform: translateY(6px) scale(0.8); }
+  40% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-14px) scale(1.15); }
+}

@@ -1,0 +1,11 @@
+{
+  "_note": "このフォルダをコピーして『_』で始まらない名前に変えると、新しいスキンになります。詳細は characters/SKIN-GUIDE.md",
+  "name": "テンプレート",
+  "frameWidth": 32,
+  "frameHeight": 22,
+  "scale": 2,
+  "theme": { "accent": "#6fa8dc" },
+  "animations": {
+    "idle": { "frames": ["idle_0.png"], "fps": 1 }
+  }
+}

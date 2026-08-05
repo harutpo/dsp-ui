@@ -1,0 +1,36 @@
+{
+  "name": "シズガイザー",
+  "frameWidth": 24,
+  "frameHeight": 24,
+  "scale": 3,
+  "theme": {
+    "accent": "#4f9fe8"
+  },
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle_0.png",
+        "idle_0.png",
+        "idle_0.png",
+        "idle_0.png",
+        "idle_0.png",
+        "idle_1.png"
+      ],
+      "fps": 2
+    },
+    "work": {
+      "frames": [
+        "work_0.png",
+        "work_1.png"
+      ],
+      "fps": 3
+    },
+    "sleep": {
+      "frames": [
+        "sleep_0.png",
+        "sleep_1.png"
+      ],
+      "fps": 1
+    }
+  }
+}

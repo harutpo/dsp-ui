@@ -1,0 +1,20 @@
+{
+  "name": "desktop-pet-ui",
+  "version": "2.0.0",
+  "description": "接続アプリの成果で育つデスクトップペットUIの母体。透過・最前面のペットウィンドウ、151枠の図鑑と進化、ローカルHTTP APIによる進捗共有",
+  "main": "demo/main.js",
+  "scripts": {
+    "start": "electron .",
+    "sprites": "node tools/generate-corgi.js && node tools/generate-boy.js",
+    "dex": "node tools/generate-dex.js",
+    "test": "node tools/test-dex.js"
+  },
+  "author": "haruto",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^37.2.0"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  }
+}
